@@ -1,22 +1,12 @@
 # Pre-Workshop Checklist
 
-Complete this checklist **before** attending the dual boot workshop. 
+Complete this checklist before attending the dual boot workshop. 
 
 ---
-
-## System Requirements
-
-- [ ] Laptop with Windows 10/11 installed
-- [ ] Minimum 8GB RAM (16GB recommended)
-- [ ] **At least 30GB free disk space** (30GB for Linux)
-- [ ] USB drive (8GB+) available for installation media
-- [ ] Stable power supply or fully charged battery
 
 **Check disk space:**
 - Windows: Right-click C:\ → Properties → Note free space
 - Minimum required: **30GB free disk space**
-
----
 
 ## BIOS/UEFI Configuration
 
@@ -31,6 +21,10 @@ Complete this checklist **before** attending the dual boot workshop.
   - Note down: UEFI or Legacy
 
 ### Step 2: Disable Features
+
+First, disable the bitlocker : execute `manage-bde status` to see if it is active
+
+If it is, disable it : `manage-bde off`
 
 Before the workshop, disable these in BIOS/UEFI:
 
