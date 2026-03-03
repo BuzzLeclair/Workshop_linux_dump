@@ -22,9 +22,9 @@ Complete this checklist before attending the dual boot workshop.
 
 ### Step 2: Disable Features
 
-First, disable the bitlocker : execute `manage-bde status` to see if it is active
+First, disable the bitlocker : execute `manage-bde -status` to see if it is active
 
-If it is, disable it : `manage-bde off`
+If it is, disable it : `manage-bde -off`
 
 Before the workshop, disable these in BIOS/UEFI:
 
