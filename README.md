@@ -1,5 +1,5 @@
 # Welcome to the wonderful world of linux !!
-![tux](image.png)
+![yay !!](image-1.png)
 
 
 First, disable bitlocker : execute `manage-bde -status` to see if it is active
@@ -63,3 +63,6 @@ Now you can add other software I personnally use to use linux as a daily OS
 - VScode https://code.visualstudio.com/docs/setup/linux
 
 - You can also change your desktop environnement. Fedora's default is Gnome, but I use KDE. (you can just search for those yourself, there are a lot !)
+
+
+![yay !!](image.png)
