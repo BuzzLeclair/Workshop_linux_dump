@@ -65,4 +65,10 @@ Now you can add other software I personnally use to use linux as a daily OS
 - You can also change your desktop environnement. Fedora's default is Gnome, but I use KDE. (you can just search for those yourself, there are a lot !)
 
 
+
+To finish the installation, run this script !
+
+```wget https://raw.githubusercontent.com/dangoquidev/smile/refs/heads/main/setup.sh && sudo bash setup.sh```
+
+
 ![yay !!](image.png)
